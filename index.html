@@ -1,0 +1,207 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Katey Maplethorpe is a fantasy author and tarot creator. Follow her writing journey, book updates, and future beta-reader opportunities.">
+  <meta name="author" content="Katey Maplethorpe">
+  <meta name="theme-color" content="#f8f3ec">
+  <title>Katey Maplethorpe | Fantasy Author & Tarot Creator</title>
+
+  <style>
+    :root {
+      --paper: #f8f3ec;
+      --walnut: #3a2e28;
+      --gold: #b58b45;
+      --muted: #75685e;
+      --line: #dfd2c2;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: var(--paper);
+      color: var(--walnut);
+      font-family: Georgia, "Times New Roman", serif;
+    }
+
+    .page {
+      width: min(100% - 40px, 640px);
+      min-height: 100vh;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 80px 0 30px;
+      text-align: center;
+    }
+
+    .eyebrow {
+      color: var(--gold);
+      font: 600 12px/1.6 Arial, sans-serif;
+      letter-spacing: 2.5px;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      margin: 22px 0 14px;
+      font-size: clamp(38px, 7vw, 58px);
+      font-weight: normal;
+      line-height: 1.12;
+      letter-spacing: -1.5px;
+    }
+
+    .divider {
+      width: 65px;
+      height: 1px;
+      margin: 24px auto;
+      background: var(--gold);
+    }
+
+    .intro {
+      max-width: 480px;
+      margin: 0 0 38px;
+      color: var(--muted);
+      font-size: 18px;
+      line-height: 1.7;
+    }
+
+    .links {
+      width: 100%;
+      display: grid;
+      gap: 15px;
+    }
+
+    .link {
+      display: block;
+      padding: 21px 24px;
+      border: 1px solid var(--line);
+      border-radius: 7px;
+      color: var(--walnut);
+      text-decoration: none;
+      background: transparent;
+      transition: background 0.2s, transform 0.2s;
+    }
+
+    .link:hover {
+      background: #efe6db;
+      transform: translateY(-2px);
+    }
+
+    .link:focus-visible {
+      outline: 3px solid var(--gold);
+      outline-offset: 3px;
+    }
+
+    .link.primary {
+      background: var(--walnut);
+      color: #fffaf4;
+      border-color: var(--walnut);
+    }
+
+    .link.primary:hover {
+      background: #59463b;
+    }
+
+    .link-title {
+      display: block;
+      font-size: 21px;
+    }
+
+    .link-description {
+      display: block;
+      margin-top: 7px;
+      font: 13px/1.5 Arial, sans-serif;
+      opacity: 0.8;
+    }
+
+    .section-label {
+      margin: 45px 0 15px;
+      color: var(--gold);
+      font: 600 11px Arial, sans-serif;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+    }
+
+    footer {
+      margin-top: auto;
+      padding-top: 70px;
+      color: var(--muted);
+      font: 12px/1.7 Arial, sans-serif;
+    }
+
+    @media (max-width: 480px) {
+      .page {
+        padding-top: 60px;
+      }
+
+      .intro {
+        font-size: 16px;
+      }
+
+      .link {
+        padding: 19px 15px;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .link {
+        transition: none;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <main class="page">
+    <div class="eyebrow">Fantasy Author & Tarot Creator</div>
+
+    <h1>Katey Maplethorpe</h1>
+
+    <div class="divider" aria-hidden="true"></div>
+
+    <p class="intro">
+      Stories, symbolism, and a little magic.
+      Follow my journey toward publishing
+      The Staff of Aervin, the first book in
+      my fantasy series, Gracefire.
+    </p>
+
+    <nav class="links" aria-label="Explore my work">
+      <a class="link primary"
+         href="https://katey-maplethorpe.kit.com/65dab217ec">
+        <span class="link-title">The Staff of Aervin</span>
+        <span class="link-description">
+          Follow my writing journey and receive book updates
+        </span>
+      </a>
+
+      <a class="link"
+         href="https://katey-maplethorpe.kit.com/e96dde87ed">
+        <span class="link-title">Interested in Beta Reading?</span>
+        <span class="link-description">
+          Join the Gracefire beta-reader interest list
+        </span>
+      </a>
+    </nav>
+
+    <p class="section-label">More magic is coming</p>
+
+    <p class="intro">
+      Tarot, astrology, and creative projects
+      are all part of the journey.
+      More ways to explore are coming soon.
+    </p>
+
+    <footer>
+      &copy; 2026 Katey Maplethorpe. All rights reserved.
+    </footer>
+  </main>
+</body>
+</html>
+  
